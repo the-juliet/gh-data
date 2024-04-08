@@ -25,7 +25,7 @@ jobs:
         run: npm ci
       - name: Build website
         run: npm run build
-      - nane: Upload artifacts
+      - name: Upload artifacts
         uses: actions/upload-artifact@v3
         with:
           name: dist-files #artifact 식별자
